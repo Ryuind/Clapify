@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(192, 74, 74);
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Coiny', cursive;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+.title {
+    white-space: nowrap;
+	font-family: 'Coiny', cursive;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+	background-size: auto;
+	background-attachment: unset;
+	position: relative;
+	width: 80%;
+	margin: 0px 0px 0px 100px;
+	font-size: 40px;
+	animation: clouds-moving infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+
+.lyrics {
+    position: absolute;
+    
+    height: auto;
+    width: 800px;
+    margin: 0px 0px 0px 180px;
+    padding: 0px 0px 0px 0px;
+}
+
+.btnText {
+    white-space: nowrap;
+    position: absolute;
+    align-items: center;
+    margin: 50px 0px 0px 220px;
+    padding: 0px 0px 0px 0px;
+}
+
+.numberBtn {
+    white-space: nowrap;
+    position: absolute;
+    display: inline;
+    margin: 200px 0px 0px 300px;
+    padding: 0px 0px 0px 0px;
+}
+
+.bef{
+    position: absolute;
+
+    margin: 175px 0px 0px 320px;
+    padding: 0px 0px 0px 0px;
+}
+.aft {
+    position: absolute;
+
+    margin: 175px 0px 0px 730px;
+    padding: 0px 0px 0px 0px;
+}
+.bet {
+    position: absolute;
+
+    margin: 175px 0px 0px 500px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.enter {
+    position: absolute;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    margin: 300px 0px 0px 500px;
+    padding: 0px 0px 0px 0px;
+}
+
+.resultCtn {
+    position: absolute;
+    align-items: center;
+    margin: 420px 0px 0px 200px;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+}
